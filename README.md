@@ -42,7 +42,7 @@ ___
 
 ## Hoffman Child Theme
 
-Child theme used in acodeabove.com/nsi Original site: thenaturalsystemsinstitue.org
+Child theme used in acodeabove.com/nsi Original site: www.thenaturalsystemsinstitue.org
 
 ___
 
