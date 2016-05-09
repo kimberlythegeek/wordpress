@@ -1,10 +1,8 @@
 # My Wordpress Stuff
 
-> _I found myself spending a lot of time doing the same tasks, but customized to different websites. The plugins here are aimed at reducing the time spent on those tasks._
+> __I found myself spending a lot of time doing the same tasks, but customized to different websites. The plugins here are aimed at reducing the time spent on those tasks.__
 
-> _I have actively been trying to move away from using Child themes, and getting closer to custom theme development. Jumping straight into custom themes from child themes is a pretty big change, so I am using the Underscores starter theme as a transition to that, and used the "Sassify" option to include a basic Sass setup in the generated theme._
-
-> _I found that a good deal of my time developing child themes was spent overwriting someone else's style rules, and throwing `!important` tags everywhere in places where the old rules took priority over mine. So the Underscores themes are aimed at reducing some of that irrelevant code._
+> __I have actively been trying to move away from using Child themes, and getting closer to custom theme development. Jumping straight into custom themes from child themes is a pretty big change, so I am using the Underscores starter theme as a transition to that. I found that a good deal of my time developing 
 
 ## Table of Contents
 

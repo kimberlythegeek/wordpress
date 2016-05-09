@@ -1,0 +1,54 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+	box-sizing: inherit;
+}
+
+body {
+	background: $color__background-main $img__background no-repeat center top;
+  background-attachment: fixed;
+}
+
+blockquote, q {
+	quotes: "" "";
+
+	&:before,
+	&:after {
+		content: "";
+	}
+}
+
+hr {
+	background-color: $color__background-hr;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+}
+
+@import "lists";
+
+img {
+	height: auto; /* Make sure images are scaled correctly. */
+	max-width: 100%; /* Adhere to container width. */
+}
+
+@import "tables";
+
+@import "header";
+
+@import "footer";
+
+.site-content {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#069fa8+0,099b5f+100 */
+	background: #069fa8; /* Old browsers */
+	background: -moz-linear-gradient(top,  #069fa8 0%, #099b5f 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #069fa8 0%,#099b5f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #069fa8 0%,#099b5f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#069fa8', endColorstr='#099b5f',GradientType=0 ); /* IE6-9 */
+
+	text-align: center;
+}
