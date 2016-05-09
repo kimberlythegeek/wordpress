@@ -12,17 +12,21 @@ ___
 
 ## Table of Contents
 
- - [A Code Above theme](#a-code-above-theme)
- - [Add Footer Widget Area](#add-footer-widget-area)
- - [Contact Widget](#contact-widget)
- - [My Super Simple Contact Form](#my-super-simple-contact-form)
- - [Services CPT](#services-cpt)
-
+ - [Themes](#themes)
+  - [A Code Above theme](#a-code-above-theme)
+ - [Plugins](#plugins)
+  - [Add Footer Widget Area](#add-footer-widget-area)
+  - [Contact Widget](#contact-widget)
+  - [Hours Widget](#hours-widget)
+  - [My Super Simple Contact Form](#my-super-simple-contact-form)
+ - [Custom Post Types](#custom-post-types)
+  - [Services CPT](#services-cpt)
 
 ___
 
+# Themes
 
-# A Code Above theme
+## A Code Above theme
 ### A Wordpress theme built with Underscores
 
 I originally created a child theme for the Twenty Thirteen Wordpress theme, then recreated it using the Underscores starter theme. (http://underscores.me/)
@@ -32,6 +36,7 @@ All of the graphics are custom on this site. FYI, I am not a graphics person, bu
 
 ___
 
+# Plugins
 
 ## Add Footer Widget Area
 
@@ -68,7 +73,9 @@ Most of the other contact form plugins (that I tried) were also bloated, or pack
 
 ___
 
+# Custom Post Types
+
 ## Services CPT
 ###### _Work in Progress_
 
-This will be a Custom Post Type to hold the name of a service offered, a description of that service, and the price of that service. 
+This will be a Custom Post Type to hold the name of a service offered, a description of that service, and the price of that service.
