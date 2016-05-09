@@ -6,6 +6,10 @@
 
 > _I found that a good deal of my time developing child themes was spent overwriting someone else's style rules, and throwing `!important` tags everywhere in places where the old rules took priority over mine. So the Underscores themes are aimed at reducing some of that irrelevant code._
 
+> _Kimberly the Geek_
+
+___
+
 ## Table of Contents
 
  - [A Code Above theme](#a-code-above-theme)
