@@ -1,0 +1,852 @@
+/*
+
+ Theme Name:   Ravel Child
+
+ Theme URI:   
+
+ Description:  Ravel Child Theme
+
+ Author:       Kimberly Pennington
+
+ Author URI:   http://www.acodeabove.com
+
+ Template:     ravel
+
+ Version:      0.1
+
+ Tags:         dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+
+ Text Domain:  ravel-child
+
+*/
+
+
+
+
+
+@import url("../ravel/style.css");
+
+
+
+
+
+/* =Theme customization starts here
+
+-------------------------------------------------------------- */
+
+.page-container > .wrap::before, .page-container > .wrap::after {  display:none; }
+
+
+
+body {
+
+  background:url('/wp-content/uploads/2014/08/black-Linen.png')
+
+    center center repeat;
+
+}
+
+.page-container > .wrap::before, .page-container > .wrap::after {
+
+  height: auto;
+
+}
+
+.search-form {
+
+  color: #8d9ca6;
+
+}
+
+.entry-header{ display: none; }
+
+.entry-byline, .singular-page .entry-header, #comments-header { width: 0px; }
+
+
+
+/*-- Home Page --*/
+
+main#content.content {
+
+  float: left;
+
+  margin-right: auto;
+
+  margin-left: 1.425%;
+
+  width: 50%;
+
+}
+
+
+
+/*--- Sidebars & Widgets ---*/
+
+h1.sidebar-toggle { display: none; }
+
+.widget .widget-title{
+
+  background:rgba(129,97,185,0.8);
+
+  border:0px;
+
+  box-shadow:0px;
+
+}
+
+#sidebar-left,
+#sidebar-right {
+  margin-top: 5%;
+}
+
+#sidebar-left {
+
+  float: left;
+
+  margin-left: 0;
+
+  margin-right: 1.666666667%;
+
+  width: 22%;
+
+}
+
+.textwidget {  padding: 1em 0 1em 0;  }
+
+#text-2 {
+
+  text-align: center;
+
+  font: 400 italic 1em/1.4em Lora, Georgia, serif;
+
+  color: #fff;
+
+}
+
+#text-2 a#email{
+
+  font-size: 0.7125em;
+
+}
+
+#sidebar-right {
+
+  float: right;
+
+  margin-right: 0;
+
+  margin-left: 1.666666667%;
+
+  width: 22%;
+
+}
+
+#sidebar-right blockquote {
+
+  font-size: 0.11157em/0.1322314em;
+
+  padding: 0 0 0 0;
+
+}
+
+blockquote::before {
+
+  top: -0.925em;
+
+  text-indent: 0.23077em;
+
+}
+
+#sidebar-right blockquote::after {
+
+  bottom: -0.0125em;
+
+  right: 0.5125em;
+
+}
+
+
+
+#post-16 .content-container,#post-16 .content,#post-16 .entry,#post-16 #comments-template, 
+
+#post-14 .content-container,#post-14 .content,#post-14 .entry,#post-14 #comments-template{
+
+  text-align:center;
+
+  clear:both;
+
+  float:none;
+
+  padding: 0;
+
+  display:block;
+
+  margin: auto auto;
+
+}
+
+div.entry-content {
+
+  width:100%;
+
+  text-align:center;
+
+  margin: auto auto;
+
+}
+
+.embed-wrap iframe, .embed-wrap object, .embed-wrap embed, element.style {
+
+  max-width:95%;
+
+}
+
+
+
+/* Text & Link Colors */
+
+nav.menu li a {
+
+  color:#888888;
+
+}
+
+nav.menu li.current-menu-item > a { 
+
+ color:#E8E8E8;  
+
+}
+
+#menu-social li a::after {
+
+  border: 3px solid #fff;
+
+}
+
+#menu-social li a: {
+
+  transition-duration: 0s;
+
+  transition-delay: 0s;
+
+  transition-timing-function: linear;
+
+  -webkit-transition-duration: 0s;
+
+  -webkit-transition-timing-function: linear;
+
+  -webkit-transition-delay: 0s;
+
+}
+
+#menu-social li a:hover {
+
+  color: #fff;
+
+}
+
+nav.menu li a:hover {
+
+  color: #FFFFFF;
+
+  background: rgba(0,0,0,0.6);  
+
+}
+
+nav.menu li li a {  border-bottom:#000;  }
+
+nav.menu li > a::after, .widget ul li::before {  color:#fff;  }
+
+nav.menu ul ul {  background-color:#303030;  }
+
+.singular-page .entry-header .entry-title  {  color:#ffffff;  }
+
+a { color: #808080; }
+
+a:hover { color: #FFFFFF; text-decoration:none; }
+
+.footer-content{  font-size:0.6em;  }
+
+h1, h2, h3, h4, h5, h6 {  color: #F0F0F0;  }
+
+blockquote {  color: #fff; font-size: 1.2em; }
+
+blockquote::before, blockquote::after { font-size: 2.25em; color:#F0F0F0;  }
+
+
+
+/*--- Custom Alert ---*/
+
+#alert {
+
+  color: #fff;
+
+  font: italic bold 1.4em/1.8em Lora, Georgia, serif;
+
+  text-align: center;
+
+}
+
+
+
+/*--- Social Menu ---*/
+
+.social-wrapper{  width: 100%;  }
+
+#menu-social{  width: 100%; text-align:center; padding:0; }
+
+
+
+
+
+/*--- Footer ---*/
+
+.footer-image img{ max-width:95%; }
+
+
+
+
+
+/*--- Image Galleries ---*/
+
+div.slideshowlink { display:none; }
+
+.ngg-gallery-thumbnail img {
+
+  background-color: #181818 !important;
+
+  border: 1px solid #606060 !important;
+
+}
+
+.ngg-navigation a.page-numbers, .ngg-navigation a.next, .ngg-navigation a.prev {
+
+  border: 1px solid #606060 !important;
+
+}
+
+.ngg-navigation a.page-numbers:hover, .ngg-navigation a.next:hover, .ngg-navigation a.prev:hover { background-color: #181818 !important; }
+
+body {
+
+  color:#C8C8C8;
+
+}
+
+div.ngg-galleryoverview {
+
+  display: table;
+
+  width: 90%;
+
+  margin: auto;
+
+  text-align: center;
+
+}
+
+div.ngg-gallery-thumbnail-box {
+
+  display: inline-block;
+
+  float: none;
+
+}
+
+
+
+
+
+/*--- Slider ---*/
+
+#metaslider_container_712, #metaslider_container_776 { border-style: outset; }
+
+.flexslider { margin:0px!important; }
+
+
+
+.flexslider {
+
+  width: 100%;
+
+  margin: 20px auto;
+
+}
+
+
+
+/*--- Contact Form ---*/
+
+button:invalid, input:invalid, select:invalid, textarea:invalid {
+
+  background-color: #2B2B2B;
+
+}
+
+label {
+
+  cursor: pointer;
+
+}
+
+input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], textarea, select {
+
+  color:#C8C8C8;
+
+  background-color:#2B2B2B;
+
+}
+
+label {
+
+  cursor:text;
+
+  color:#default;
+
+}
+
+.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+
+  background-color:#181818;
+
+  border: 2px solid #4E4E4E;
+
+}
+.form-control#cscf_message {
+    color: #C8C8C8;
+    background-color: #2B2B2B;
+    border-radius: 0;
+}
+#frmCSCF {
+  width: 75%;
+  margin: auto;
+}
+
+
+
+
+/*--- Portfolio Page ---*/
+
+#post-908 div.entry-content{  width:100%; text-align:center;  }
+
+.entry-content img, .featured-media > img, .featured-media > a > img, .featured-media figure, .chat-transcript, .widget, .page-template-intro .content p img, .archive-portfolio_item .content figure, .taxonomy-portfolio .content figure { 
+
+  background:#181818;
+
+  border: none;
+
+  box-shadow: none;
+
+}
+
+
+#alert a,
+#post-908 a {
+  color: white;
+}
+
+#portfolio h2 {
+  padding:0!important;
+}
+#portfolio > div{
+
+  padding: 1.5em 0 1.5em 0;  
+
+}
+.grey {
+  color: #a8a8a8;
+}
+
+#portfolio h5 {
+  color: #a8a8a8;
+}
+
+#portfolio {
+
+  min-height: 280px;
+
+  margin: 0.25em 0 0.25em 0;
+
+}
+
+
+
+
+
+/*--------- MEDIA QUERIES ---------*/
+
+
+
+@-ms-viewport {
+
+	width: device-width;
+
+}
+
+@viewport {
+
+	width: device-width;
+
+}
+
+
+
+/*-- Disable Menu Button on Mobile Views --*/
+
+@media screen and (max-width: 782px) {
+
+  #site-navigation > div {
+
+    margin-top: 10em;
+
+  }
+
+  div.menu-top-container {   }
+
+  nav#menu-primary .wrap{
+
+    display: block;
+
+  }
+
+  .menu-toggle {
+
+    display:none;
+
+  }  
+
+}
+
+
+
+
+
+/*-- Theme Fixes --*/
+
+
+
+@media (max-width: 600px) {
+
+  footer-image {
+
+    width: 100%;
+
+  }
+
+}
+
+
+
+
+
+/*--- 280px to 320px ---*/
+
+@media screen and (min-device-width : 280px) and (max-device-width : 320px)  {
+
+#container {
+
+  margin: 0 auto;
+
+  max-width: 320px;
+
+  overflow: hidden;
+
+  }
+
+  #sidebar-left {
+
+    width: 95%;
+
+    float:none;
+
+    display: block;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+  } 
+
+  #sidebar-right {
+
+    width: 95%;
+
+    float:none;
+
+    display: block;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+  }
+
+  main#content.content { width: 95%; }      
+
+}
+
+/*--- 320px to 480px ---*/
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px)  {
+
+#container {
+
+  margin: 0 auto;
+
+  max-width: 480px;
+
+  overflow: hidden;
+
+  }
+
+  #sidebar-left {
+
+    width: 95%;
+
+    float:none;
+
+    display: block;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+  }
+
+  #sidebar-right {
+
+    width: 95%;
+
+    float:none;
+
+    display: block;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+  }
+
+  main#content.content { width: 95%; } 
+
+}
+
+/*--- below 600px ---*/
+
+@media screen and (max-width: 600px) {
+
+#container {
+
+  margin: 0 auto;
+
+  max-width: 600px;
+
+  overflow: hidden;
+
+  }
+
+  #sidebar-left {
+
+    width: 85%;
+
+    float:none;
+
+    display: block;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+  }
+
+  #sidebar-right {
+
+    width: 85%;
+
+    float:none;
+
+    display: block;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+  }
+
+  main#content.content { width: 95%; } 
+
+  
+
+}
+
+
+
+
+
+/*--- 600px to 799px ---*/
+
+@media screen and (max-width: 800px) and (min-width: 601px) {
+
+  #container {
+
+    margin: 0 auto;
+
+    max-width: 800px;
+
+    overflow: hidden;
+
+  }
+
+  main#content.content { width: 95%; }      
+
+  #sidebar-left {
+
+    width: 75%;
+
+    float:none;
+
+    display: block;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+  }
+
+  #sidebar-right {
+
+    width: 75%;
+
+    float:none;
+
+    display: block;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+  }
+
+}
+
+
+
+/*--- 800px to 1036px ---*/
+
+@media screen and (max-width: 1036px) and (min-width: 801px) {
+
+  #container {
+
+    margin: 0 auto;
+
+    max-width: 1024px;
+
+    overflow: hidden;
+
+  }
+
+}
+
+@media screen and (max-width: 1220px) and (min-width: 1025px) {
+
+#container {
+
+  margin: 0 auto;
+
+  max-width: 1220px;
+
+  overflow: hidden;
+
+  }
+
+}
+
+
+
+
+
+/*--- iPhone [portrait + landscape] ---*/
+
+@media screen and (max-device-width: 568px), screen and (-webkit-min-device-pixel-ratio: 2) {
+
+#container {
+
+  margin: 0 auto;
+
+  max-width: 568px;
+
+  overflow: hidden;
+
+  }
+
+  main#content.content { width: 95%; }
+
+  #sidebar-left {
+
+    width: 95%;
+
+    float:none;
+
+    display: block;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+  }
+
+  #sidebar-right {
+
+    width: 95%;
+
+    float:none;
+
+    display: block;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+  }
+
+
+
+}
+
+
+
+
+
+/*--- Navigation Menu for Mobile/Tablet Viewports ---*/
+
+@media only screen and (max-width: 782px) {
+
+  .menu-toggle::before { color:#fff; } 
+
+  nav#menu-primary li a, nav#menu-primary li li a {
+
+    color:#C0C0C0;
+
+    background-color:#303030;
+
+    border-bottom:#A0A0A0;
+
+  }
+
+  nav#menu-primary li a:hover, nav#menu-primary li li a:hover {
+
+    color:#fff;
+
+    background-color:#000;
+
+  }
+
+  #menu-item-918, #menu-item-23 {
+
+    background-color: #686868; 
+
+  }
+
+}
+
+nav#menu-primary li.current-menu-item a, nav#menu-primary li li.current-menu-item  a { color:#fff; }

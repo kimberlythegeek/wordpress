@@ -1,0 +1,85 @@
+/*
+ Theme Name:   Hoffman Child
+ Theme URI:    
+ Description:  Hoffman Child Theme
+ Author:       Kimberly Pennington
+ Author URI:   http://www.acodeabove.com
+ Template:     hoffman
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         gray, white, light, silver, one-column, fluid-layout, responsive-layout, custom-background, custom-colors, custom-menu, editor-style, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, photoblogging
+ Text Domain:  hoffman-child
+*/
+
+
+/*--------- Clear Styles ---------*/
+.post + .post, .page + .page, .post + .page, .page + .post, .infinite-wrap .post:first-child {
+  border-top: none;
+}
+.header {
+  border-bottom: none;
+}
+
+
+
+/*--------- Custom CSS ---------*/
+li {
+  padding: 5px;
+}
+.content {
+  font-size: 90%;
+}
+.content .post-content {
+  font-size: 95%;
+}
+.content #posts {
+  width: 70%;
+  float: left;
+}
+.credits {
+  float: left;
+}
+#left-sidebar,
+#right-sidebar {
+  width: 15%;
+  float: left;
+  margin-top: 10em;
+}
+#left-sidebar h2,
+#right-sidebar h2 {
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+#left-sidebar > ul > li,
+#right-sidebar > ul > li {
+  padding: 20px 0;
+}
+#left-sidebar ul,
+#right-sidebar ul {
+  font-size: 90%;
+}
+.post {
+  border: 1px solid rgba(3,67,77,0.6)!important;
+  margin: 10px;
+}
+
+.blog-logo img {
+  max-height: 100px;
+}
+
+body a:hover {
+  color: #02C7F9;
+}
+
+@media screen and (max-width: 800px) {
+  .content #posts {
+    width: 100%;
+  }
+  #left-sidebar,
+  #right-sidebar {
+    display: none;
+  }
+}

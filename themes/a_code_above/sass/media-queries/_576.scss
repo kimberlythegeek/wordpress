@@ -1,0 +1,17 @@
+@media only screen and (max-width: 36rem) {
+  /* FULL SITE */
+  body {
+    background-image:none;
+  }
+  .home-link {
+    height: 18.75rem;
+    background: $img__header-small no-repeat center top;
+    background-size: contain;
+  }
+
+  /* FRONT PAGE */
+  .section-1,
+  .section-3{
+    max-height: 7.5rem;
+  }
+}

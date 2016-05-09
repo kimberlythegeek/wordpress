@@ -1,0 +1,336 @@
+/*
+ Theme Name:   Twenty Sixteen Child
+ Theme URI:    
+ Author:       Kimberly Pennington
+ Author URI:   http://www.ACodeAbove.com
+ Template:     twentysixteen
+ Version:      0.1
+ Tags:         full-width, responsive-layout, accessibility-ready
+ Text Domain:  twenty-sixteen-child
+*/
+@import url("../twentysixteen/style.css");
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+
+/*----- SITE -----*/
+html {
+	font-size: 85%;
+}
+body {
+	font-size: 0.9em;
+}
+.entry-content h4 {
+  font-weight: 700;
+}
+
+.content-area {
+	width: 50%;
+}
+.entry-content {
+  margin: auto 3em;
+}
+
+/* Left Sidebar */
+
+.site-sidebar-left {
+	float:left;
+	width: 20%;
+	margin: auto 1em;
+}
+.event-location {
+  display: none;
+}
+
+/* Right Sidebar */
+.site-sidebar-right {
+	width: 20%;
+	float: left;
+	margin-left: 5%;
+}
+/* Quotes Widget */
+#sticky-posts-2 {
+	display: inline-block;
+}
+#sticky-posts-2 .entry-content {
+	width: 100%;
+}
+/* Posts */
+.entry-title {
+	font-size: 1.8em;
+}
+
+
+
+/*-------- Media Queries ---------*/
+
+
+/*iPhone 6 Portrait*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { 
+	.site-sidebar-left {
+	  width: 90%;
+	  margin: auto 5%;
+	}
+  .site-sidebar-right {
+    width: 90%;
+	  margin: auto 5%;
+  }
+}
+
+/*iPhone 6 landscape*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) { 
+	.site-sidebar-left {
+	  width: 90%;
+	  margin: auto 5%;
+	}
+  .site-sidebar-right {
+    width: 90%;
+	  margin: auto 5%;
+  }
+}
+
+/*iPhone 6+ Portrait*/
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) { 
+	.site-sidebar-left {
+	  width: 90%;
+	  margin: auto 5%;
+	}
+  .site-sidebar-right {
+    width: 90%;
+ 		margin: auto 5%;
+  }
+}
+
+/*iPhone 6+ landscape*/
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape) { 
+	.site-sidebar-left {
+	  width: 90%;
+	  margin: auto 5%;
+	}
+  .site-sidebar-right {
+    width: 90%;
+ 		margin: auto 5%;
+  }
+}
+
+/*iPhone 6 and iPhone 6+ portrait and landscape*/
+@media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px){ 
+	.site-sidebar-left {
+	  width: 90%;
+	  margin: auto 5%;
+	}
+  .site-sidebar-right {
+    width: 90%;
+ 		margin: auto 5%;
+  }
+}
+
+/*iPhone 6 and iPhone 6+ portrait*/
+@media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px) and (orientation : portrait){ 
+	.site-sidebar-left {
+	  width: 90%;
+	  margin: auto 5%;
+	}
+  .site-sidebar-right {
+    width: 90%;
+ 		margin: auto 5%;
+  }
+}
+
+/*iPhone 6 and iPhone 6+ landscape*/
+@media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px) and (orientation : landscape){ 
+	.site-sidebar-left {
+	  width: 90%;
+	  margin: auto 5%;
+	}
+  .site-sidebar-right {
+    width: 90%;
+ 		margin: auto 5%;
+  }
+}
+@media only screen and (min-width: 278px) and (max-width: 909px) {
+	#masthead {
+		padding: 0;
+	}
+}
+
+@media only screen and (min-width: 270px){
+	
+	/* FULL SITE */
+	html {
+		font-size: 75%;
+	}
+	.site {
+		margin: auto;
+	}
+	#menu-toggle {
+		width: 100%;
+		margin: auto;
+	}
+
+	.header-image {
+		width: 100%;
+		margin: auto;
+	}
+
+  .content-area{
+    width: 100%;
+  }
+
+	/*widgets*/
+	.site-sidebar-left {
+		text-align: center;
+		line-height: 1.5em;
+	}
+	.site-sidebar-right .widget {
+		margin-left: 1em;
+	}
+ ul {
+		list-style: none;
+	}
+	#vsmeetsinglewidget-2 { /*next event*/
+		border-bottom: 4px solid #1a1a1a;
+    padding-bottom: 1.3em;
+	}
+	#vsmeetlistwidget-2 { /*upcoming events*/
+		display: none;
+	}
+
+	#sticky-posts-2 .entry-content {
+		margin: 0;
+    padding: 1em;
+	}
+
+}
+
+@media only screen and (min-width: 480px) {
+	#menu-toggle {
+		width: initial;
+    margin: initial;
+	}
+	.site-sidebar-left {
+		width: 100%;
+    line-height: 1.5em;
+	}
+	.site-sidebar-right {
+		width: 85%;
+    float: none;
+    margin: auto;
+	}
+
+	#vsmeetlistwidget-2 {
+		display: inline-block;
+		border-bottom: 4px solid #1a1a1a;
+		line-height: 2em;
+		padding-bottom: 2em;
+    margin-bottom: 3em;
+	}
+	#vsmeetsinglewidget-2 {
+		border-bottom: none;
+		width: 369.016px;
+    float: none;
+    margin: auto;
+	}
+	#vsmeetlistwidget-2 ul {
+		list-style: none;
+	}
+}
+
+@media only screen and (min-width: 710px) {
+	body:not(.custom-background-image):before, 
+	body:not(.custom-background-image):after {
+		height:0;
+	}
+	.site {
+		margin: auto;
+	}
+	.content-area {
+		width: 65%;
+		float: right;
+	}
+	#main .entry-content {
+		margin-right: auto;
+	}
+	#vsmeetsinglewidget-2 {
+		width: initial;
+	}
+	.site-sidebar-left {
+		width: 30%;
+	}
+	.site-sidebar-right {
+		width: 30%;
+		margin: auto 1em;
+		float: left;
+	}
+	.site-sidebar-right .widget {
+		margin-left: 0;
+	}
+	#vsmeetsinglewidget-2 {
+		width: initial;
+	}
+}
+
+@media only screen and (min-width: 860px) {
+	.content-area {
+		padding: 1em;
+    width: 50%;
+    float: left;
+	}
+	.entry-content {
+		margin-right: auto;
+	}
+	.site-sidebar-left {
+		width: 20%;
+		margin: auto 1em;
+	}
+	.site-sidebar-right {
+    width: 25%;
+    margin: auto 1em;
+    float: left;
+	}
+	#vsmeetsinglewidget-2,
+	#vsmeetlistwidget-2 {
+		line-height: 1.7em;
+	}
+	#vsmeetlistwidget-2 > ul > li {
+		margin-bottom: 1.5em;
+	}
+}
+
+@media only screen and (min-width: 910px) {
+	html {
+		font-size: 85%;
+	}
+  .content-area {
+    padding: 0;
+    margin-right: 0;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 985px) {
+	.site-sidebar-right {
+    width: 20%;
+    margin: 1em;
+    float: right;
+	}
+
+}
+
+
+@media screen and (min-width: 61.5625em) {
+body:not(.search-results) article:not(.type-page) img.below-entry-meta, 
+body:not(.search-results) article:not(.type-page) figure.below-entry-meta {
+    clear: both;
+    display: block;
+    float: none;
+    margin-right: 0;
+    margin-left: 0;
+    max-width: 100%;
+	}
+}
+@media screen and (min-width: 56.875em) {
+	.site-content {
+	    padding: 0;
+	}
+}
