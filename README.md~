@@ -43,7 +43,7 @@ It does, however, remove a step where you would normally have to modify function
 ___
 
 ## Contact Widget
-_Work in Progress_
+###### _Work in Progress_
 
 When written, will be a simple, lightweight widget to display contact information. The location will open native map applications on mobile devices. (I have utilized this before, but not yet in a Wordpress plugin)
 
@@ -51,7 +51,7 @@ When written, will be a simple, lightweight widget to display contact informatio
 ___
 
 ## Hours Widget
-_Work in Progress_
+###### _Work in Progress_
 
 When written, will be a simple plugin to display business hours, formatted to be responsive, to reduce the time spent doing redundant tasks from site to site.
 
@@ -69,6 +69,6 @@ Most of the other contact form plugins (that I tried) were also bloated, or pack
 ___
 
 ## Services CPT
-_Work in Progress_
+###### _Work in Progress_
 
 This will be a Custom Post Type to hold the name of a service offered, a description of that service, and the price of that service. 

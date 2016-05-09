@@ -22,7 +22,7 @@ ___
 ___
 
 
-## A Code Above theme
+# A Code Above theme
 ### A Wordpress theme built with Underscores
 
 I originally created a child theme for the Twenty Thirteen Wordpress theme, then recreated it using the Underscores starter theme. (http://underscores.me/)
