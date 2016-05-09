@@ -42,31 +42,31 @@ ___
 
 ## Hoffman Child Theme
 
-Child theme used in acodeabove.com/nsi Original site: www.thenaturalsystemsinstitue.org
+Child theme used in http://acodeabove.com/nsi Original site: http://thenaturalsystemsinstitue.org
 
 ___
 
 ## Olsen Light Child Theme
 
-Child theme used in acodeabove.com/hairsalon (moving site, may not be active yet)
+Child theme used in http://acodeabove.com/hairsalon (moving site, may not be active yet)
 
 ___
 
 ## Ravel Child Theme
 
-Child theme used in tattoodurango.com. One of my first Wordpress sites.
+Child theme used in http://tattoodurango.com. One of my first Wordpress sites.
 
 ___
 
 ## Twenty Eleven Child Theme
 
-Child theme used in acodeabove.com/polecallfitness Original site: polecallfitness.com
+Child theme used in http://acodeabove.com/polecallfitness Original site: http://polecallfitness.com
 
 ___
 
 ## Twenty Sixteen Child Theme
 
-Child theme used in durangoskeptics.com Original site: durangofreethinkers.com
+Child theme used in http://durangoskeptics.com Original site: http://durangofreethinkers.com
 
 
 ___
