@@ -33,6 +33,26 @@ I originally created a child theme for the Twenty Thirteen Wordpress theme, then
 
 All of the graphics are custom on this site. FYI, I am not a graphics person, but I do enjoy doing it sometimes.
 
+## Hoffman Child Theme
+
+Child theme used in acodeabove.com/nsi Original site: thenaturalsystemsinstitue.org
+
+## Olsen Light Child Theme
+
+Child theme used in acodeabove.com/hairsalon (moving site, may not be active yet)
+
+## Ravel Child Theme
+
+Child theme used in tattoodurango.com. One of my first Wordpress sites.
+
+## Twenty Eleven Child Theme
+
+Child theme used in acodeabove.com/polecallfitness Original site: polecallfitness.com
+
+## Twenty Sixteen Child Theme
+
+Child theme used in durangoskeptics.com Original site: durangofreethinkers.com
+
 
 ___
 
