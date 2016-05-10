@@ -90,7 +90,7 @@ ___
 
 ## Twenty Eleven Child Theme
 
-### Pole Call Fitness re-design
+### Pole Call Fitness site re-design
 
 Child theme used in http://acodeabove.com/polecallfitness Original site: http://polecallfitness.com
 
@@ -103,6 +103,8 @@ _No custom plugins. I did add some simple features; when you click the address i
 ___
 
 ## Twenty Sixteen Child Theme
+
+### Durango Skeptics & Atheists site re-design
 
 Child theme used in http://durangoskeptics.com Original site: http://durangofreethinkers.com
 
