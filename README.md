@@ -42,7 +42,7 @@ ___
 
 ## Hoffman Child Theme
 
-The Natural Systems Institute re-design
+**The Natural Systems Institute re-design**
 
 Child theme used in http://acodeabove.com/nsi Original site: http://thenaturalsystemsinstitute.org
 
@@ -52,7 +52,7 @@ ___
 
 ## Olsen Light Child Theme
 
-Generic Hair Salon website
+**Generic Hair Salon website**
 
 Child theme used in http://acodeabove.com/hairsalon (moving site, may not be active yet)
 
@@ -60,7 +60,7 @@ ___
 
 ## Ravel Child Theme
 
-Durango Tattoo Company
+**Durango Tattoo Company**
 
 Child theme used in http://tattoodurango.com. My first Wordpress site.
 
@@ -73,7 +73,7 @@ ___
 
 ## Twenty Eleven Child Theme
 
-Pole Call Fitness re-design
+**Pole Call Fitness re-design**
 
 Child theme used in http://acodeabove.com/polecallfitness Original site: http://polecallfitness.com
 
