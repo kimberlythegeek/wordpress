@@ -32,7 +32,7 @@ ___
 # Themes
 
 ## A Code Above Theme
-#### A Wordpress theme built with Underscores
+### A Wordpress theme built with Underscores
 
 ![alt tag](https://raw.githubusercontent.com/kimberlythegeek/wordpress/master/screenshots/acodeabove.png)
 
@@ -45,7 +45,7 @@ ___
 
 ## Hoffman Child Theme
 
-**The Natural Systems Institute re-design**
+### The Natural Systems Institute re-design
 
 ![alt tag](https://raw.githubusercontent.com/kimberlythegeek/wordpress/master/screenshots/naturalsystems.png)
 
@@ -57,7 +57,7 @@ ___
 
 ## Olsen Light Child Theme
 
-**Generic Hair Salon website**
+### Generic Hair Salon website
 
 ![alt tag](https://raw.githubusercontent.com/kimberlythegeek/wordpress/master/screenshots/hairsalon.png)
 
@@ -73,7 +73,7 @@ ___
 
 ## Ravel Child Theme
 
-**Durango Tattoo Company**
+### Durango Tattoo Company
 
 ![alt tag](https://raw.githubusercontent.com/kimberlythegeek/wordpress/master/screenshots/durangotattoo.png)
 
@@ -88,7 +88,7 @@ ___
 
 ## Twenty Eleven Child Theme
 
-**Pole Call Fitness re-design**
+### Pole Call Fitness re-design
 
 ![alt tag](https://raw.githubusercontent.com/kimberlythegeek/wordpress/master/screenshots/polefitness.png)
 
