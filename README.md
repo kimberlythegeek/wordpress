@@ -15,6 +15,7 @@ ___
  - [Themes](#themes)
   - [A Code Above Theme](#a-code-above-theme)
   - [Hoffman Child Theme](#hoffman-child-theme)
+  - [Moesia Child Theme](#moesia-child-theme)
   - [Olsen Light Child Theme](#olsen-light-child-theme)
   - [Ravel Child Theme](#ravel-child-theme)
   - [Twenty Eleven Child Theme](#twenty-eleven-child-theme)
@@ -54,6 +55,19 @@ Child theme used in http://acodeabove.com/nsi Original site: http://thenaturalsy
 _Very simple site, really the only customization was the logo re-design._
 
 ![alt tag](https://raw.githubusercontent.com/kimberlythegeek/wordpress/master/screenshots/naturalsystems.png)
+
+___
+
+## Moesia Child Theme
+
+### Tattoo Famous
+
+Child theme used in http://tattoo-famous.com
+
+_Very simple site._
+
+![alt tag](https://raw.githubusercontent.com/kimberlythegeek/wordpress/master/screenshots/tattoofamous.png)
+
 
 ___
 
