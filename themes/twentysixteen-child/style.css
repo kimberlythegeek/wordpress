@@ -60,6 +60,15 @@ body {
 	font-size: 1.8em;
 }
 
+/* Footer */
+.site-info {
+    font-size: 0.9rem;
+}
+.developer {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
 
 
 /*-------- Media Queries ---------*/

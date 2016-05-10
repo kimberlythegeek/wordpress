@@ -1,0 +1,254 @@
+/*
+ Theme Name:   Moesia Child
+ Theme URI:    
+ Author:       Kimberly Pennington
+ Author URI:   http://www.acodeabove.com
+ Template:     moesia
+ Version:      0.1
+ Tags:         light, dark, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  moesia-child
+*/
+
+@import url("../moesia/style.css");
+
+
+/* =Theme customization starts here */
+body {
+  color: #484848;
+}
+h1, h2, h3, h4, h5 {
+  color: #282828;
+}
+a {
+  font-weight: bold;
+}
+.individual a,
+.owner a {
+  color:#2a6496;
+}
+a:hover,
+a:focus,
+a:active {
+  color: #282828;
+  font-size: 105%;
+  text-decoration: none;
+}
+::selection {
+  background-color: #99CCFF;
+}
+.overlay {
+  display: none;
+}
+.site-title,
+.site-description {
+  display: none;
+}
+.site-navigation {
+  float:right;
+}
+.main-navigation {
+  float:right;
+}
+.main-navigation a:hover {
+  color: #99CCFF;
+}
+.entry-title{
+  color: #006600;
+}
+h1 {
+  font-size: 2.4em;
+}
+#post-27 .entry-title {
+  color: #282828;
+}
+#post-27 .entry-title h1 {
+  font-size: 36px;
+}
+.entry-header {
+  margin-bottom: 2.4em;
+  text-align: center;
+}
+.entry-header,
+.entry-footer {
+  border-bottom: 4px double #B0B0B0;
+}
+.entry-footer {
+  border-top: 4px double #B0B0B0;
+}
+.top-list {
+  width: 65%;
+  margin: 2em auto;
+}
+.top-list li {
+  margin: 3px 0;
+}
+.individual {
+  float:left;
+}
+.owner {
+  float:right;
+}
+.individual,
+.owner {
+  width: 50%;
+  padding: 1em;
+}
+.individual ul,
+.owner ul {
+  -webkit-padding-start: 0;
+}
+.hentry .post-content,
+.single .hentry,
+.page .hentry {
+  border: 4px double #B0B0B0;
+}
+.content-area {
+  width: 80%;
+  margin: auto 10%;
+}
+
+.page-info {
+  width: 75%;
+  margin: auto;
+}
+
+.ccf-form-wrapper input,
+.ccf-form-wrapper textarea {
+  padding: 5px;
+  border: 1px solid #444;
+}
+.ccf-form-wrapper .field {
+  margin-bottom: 10px;
+}
+.ccf-form-wrapper .city {
+  width: 50%;
+  padding-right: 10px;
+  float: left;
+  clear: none;
+}
+.ccf-form-wrapper .state {
+  float: left;
+  width: 50%;
+  padding-left: 10px;
+  clear: none;
+}
+#ccf_field_state {
+  width: 100%;
+  padding: 0.4em 0;
+}
+.ccf-form-wrapper .phone {
+  width: 50%;
+  padding-left: 10px;
+  clear: none;
+  float: right;
+}
+.ccf-form-wrapper .email {
+  width: 50%;
+  clear: none;
+  float: left;
+}
+.ccf-form-wrapper .email > .left,
+.ccf-form-wrapper .email > .right {
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 0;
+}
+.links > .heading {
+  border-bottom: none;
+}
+.facebook-self,
+.additional-1,
+.facebook-shop {
+  width: 50%;
+  padding-right: 10px;
+  clear: none!important;
+  float:left;
+}
+.website-self,
+.additional-2,
+.website-shop {
+  width: 50%;
+  padding-left: 10px;
+  clear: none!important;
+  float:right;
+}
+
+.developer {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: lightgrey;
+}
+  .developer a {
+    color: aquamarine;
+  }
+    .developer a:hover {
+      color: white;
+    }
+
+@media screen and (max-width: 480px) {
+  .top-list {
+    width: 100%;
+  }
+  .container {
+    padding-left: 0!important;
+    padding-right: 0!important;
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 569px) {
+  .individual,
+  .owner {
+    width: 100%;
+  }
+  .top-list {
+    width:85%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .content-area {
+    width: 100%;
+    margin: auto;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: none;
+  }
+}
+@media screen and (max-width: 769px) {
+  .top-list {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 661px) {
+  .menu-toggle {
+    display: none;
+  }
+  .site-branding {
+    padding: 0;
+  }
+  .sticky-wrapper {
+    height:4.5em!important;
+  }
+  .top-bar {
+    height:4.5em;
+  }
+  .main-navigation{
+    width: 100%;
+  }
+  .main-navigation ul{
+    display: inline-flex;
+    width: 50%;
+    margin: 1em 25%;
+  }
+}
+@media screen and (max-width: 980px) {
+  .content-area {
+    width: 90%;
+    margin: auto 5%;
+  }
+  .individual,
+  .owner {
+    padding: 2.5%;
+  }
+}

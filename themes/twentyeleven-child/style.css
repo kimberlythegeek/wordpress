@@ -23,6 +23,10 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff56aa', endColorstr='#bf005f',GradientType=0 ); /* IE6-9 */
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .one-column #page {
     max-width: 85%;
 }
@@ -202,13 +206,16 @@ body {
 .widget-title {
   font-size: 1.2em;
 }
-#site-generator .design-credit a {
-  color: #bf005f;
+#site-generator {
+  font-size: 1rem;
 }
-#site-generator .design-credit a:hover {
-  text-decoration: none;
-  font-size: 105%;
-}
+  #site-generator .developer a {
+    color: #bf005f;
+  }
+    #site-generator a:hover {
+      text-decoration: none;
+      font-size: 105%;
+    }
 #text-2 .textwidget {
   text-align: center;
 }

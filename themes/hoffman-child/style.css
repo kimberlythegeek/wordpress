@@ -74,6 +74,18 @@ body a:hover {
   color: #02C7F9;
 }
 
+.developer {
+  color: white;
+  font-weight: bold;
+}
+
+.developer a {
+  color: #989898;
+}
+  .developer a:hover {
+    color: #02C7F9;
+  }
+
 @media screen and (max-width: 800px) {
   .content #posts {
     width: 100%;

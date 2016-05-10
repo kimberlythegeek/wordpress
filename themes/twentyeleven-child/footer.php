@@ -24,7 +24,7 @@
 			?>
 
 			<div id="site-generator">
-				<span class="design-credit"><a href="http://www.acodeabove.com">Website Design by A Code Above</a></span><br>
+				<span class="developer"><a href="http://www.acodeabove.com">Website by A Code Above</a></span><br>
 				<?php do_action( 'twentyeleven_credits' ); ?>
 				<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentyeleven' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentyeleven' ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentyeleven' ), 'WordPress' ); ?></a>
 			</div>

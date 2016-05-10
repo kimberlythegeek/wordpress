@@ -45,6 +45,7 @@
                         </h3>
                     
                         <?php if ( get_theme_mod( 'footer_credits', 1 ) ) : ?>
+                            <span class="developer">Website by <a href="http://acodeabove.com">A Code Above</a></span><br>
                             <p class="tagline">
                                 <?php echo wp_kses( sprintf( __( '<a href="%1$s" title="%2$s">Olsen WordPress Theme</a> by <a href="%3$s">CSSIgniter</a>', 'olsen-light' ),
                                     esc_url( 'http://www.cssigniter.com/ignite/themes/olsen-light/' ),
