@@ -9,6 +9,17 @@ textarea {
 	line-height: $font__line-height-body;
 }
 
+.main-navigation{
+    font-size: 140%;
+}
+
+.home-section-1 p,
+.home-section-2 p,
+.home-section-3 p {
+    font-size: 160%;
+    font-weight: bold;
+}
+
 @import "headings";
 
 @import "copy";

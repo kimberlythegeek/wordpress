@@ -32,7 +32,7 @@ ___
 # Themes
 
 ## A Code Above Theme
-### A Wordpress theme built with Underscores
+#### A Wordpress theme built with Underscores
 
 I originally created a child theme for the Twenty Thirteen Wordpress theme, then recreated it using the Underscores starter theme. (http://underscores.me/)
 
@@ -42,11 +42,17 @@ ___
 
 ## Hoffman Child Theme
 
-Child theme used in http://acodeabove.com/nsi Original site: http://thenaturalsystemsinstitue.org
+The Natural Systems Institute re-design
+
+Child theme used in http://acodeabove.com/nsi Original site: http://thenaturalsystemsinstitute.org
+
+Very simple site, really the only customization was the logo re-design.
 
 ___
 
 ## Olsen Light Child Theme
+
+Generic Hair Salon website
 
 Child theme used in http://acodeabove.com/hairsalon (moving site, may not be active yet)
 
@@ -54,19 +60,32 @@ ___
 
 ## Ravel Child Theme
 
-Child theme used in http://tattoodurango.com. One of my first Wordpress sites.
+Durango Tattoo Company
 
+Child theme used in http://tattoodurango.com. My first Wordpress site.
+
+No custom plugins or Sass used.
+
+The original theme had only one widget area/sidebar, in `footer.php`, so that it moves underneath the main content area on smaller screens.
+
+I added another widget area to mirror this sidebar on the left on larger screens, and above the main content on smaller screens. I used a CPT plugin to create a Testimonials post type, and used a widget for CPTs that randomly loads any posts of that type. 
 ___
 
 ## Twenty Eleven Child Theme
 
+Pole Call Fitness re-design
+
 Child theme used in http://acodeabove.com/polecallfitness Original site: http://polecallfitness.com
+
+No custom plugins. I did add some simple features; when you click the address in the footer while using a mobile device, in iOS it will open Apple Maps, and in Android devices it will prompt for the user's choice in application. I also have two separate HTML 5 links for the phone number so that a user can either call or text.
 
 ___
 
 ## Twenty Sixteen Child Theme
 
 Child theme used in http://durangoskeptics.com Original site: http://durangofreethinkers.com
+
+No custom plugins. I used a CPT plugin to create post type Quotes, and a CPT widget that will always show the most recent quote. I used two Meetup.com widgets to show details of the next event and a list of the next five events.
 
 
 ___
@@ -85,7 +104,7 @@ ___
 ## Contact Widget
 ###### _Work in Progress_
 
-When written, will be a simple, lightweight widget to display contact information. The location will open native map applications on mobile devices. (I have utilized this before, but not yet in a Wordpress plugin)
+When written, will be a simple, lightweightou widget to display contact information. The location will open native map applications on mobile devices. (I have utilized this before, but not yet in a Wordpress plugin)
 
 
 ___
