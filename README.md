@@ -47,6 +47,8 @@ ___
 
 **The Natural Systems Institute re-design**
 
+![alt tag](https://raw.githubusercontent.com/kimberlythegeek/wordpress/master/screenshots/naturalsystems.png)
+
 Child theme used in http://acodeabove.com/nsi Original site: http://thenaturalsystemsinstitute.org
 
 _Very simple site, really the only customization was the logo re-design._
@@ -56,6 +58,8 @@ ___
 ## Olsen Light Child Theme
 
 **Generic Hair Salon website**
+
+![alt tag](https://raw.githubusercontent.com/kimberlythegeek/wordpress/master/screenshots/hairsalon.png)
 
 Uses the [simple HTML 5 contact form plugin](#my-super-simple-contact-form) and the [footer widget area plugin](#add-footer-widget-area).
 
@@ -71,6 +75,8 @@ ___
 
 **Durango Tattoo Company**
 
+![alt tag](https://raw.githubusercontent.com/kimberlythegeek/wordpress/master/screenshots/durangotattoo.png)
+
 Child theme used in http://tattoodurango.com. My first Wordpress site.
 
 _No custom plugins or Sass used._
@@ -84,6 +90,8 @@ ___
 
 **Pole Call Fitness re-design**
 
+![alt tag](https://raw.githubusercontent.com/kimberlythegeek/wordpress/master/screenshots/polefitness.png)
+
 Child theme used in http://acodeabove.com/polecallfitness Original site: http://polecallfitness.com
 
 _The header image is low resolution because I didn't have access to the original file. I did this site mostly for the experience (as is the case with most of them)._
@@ -93,6 +101,8 @@ _No custom plugins. I did add some simple features; when you click the address i
 ___
 
 ## Twenty Sixteen Child Theme
+
+![alt tag](https://raw.githubusercontent.com/kimberlythegeek/wordpress/master/screenshots/skeptics.png)
 
 Child theme used in http://durangoskeptics.com Original site: http://durangofreethinkers.com
 
