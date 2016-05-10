@@ -34,12 +34,14 @@ ___
 ## A Code Above Theme
 ### A Wordpress theme built with Underscores
 
-![alt tag](https://raw.githubusercontent.com/kimberlythegeek/wordpress/master/screenshots/acodeabove.png)
+http://acodeabove.com
 
 
 _I originally created a child theme for the Twenty Thirteen Wordpress theme, then recreated it using the Underscores starter theme. (http://underscores.me/)_
 
 _All of the graphics are custom on this site. I am not a designer, but I do enjoy doing it sometimes._
+
+![alt tag](https://raw.githubusercontent.com/kimberlythegeek/wordpress/master/screenshots/acodeabove.png)
 
 ___
 
@@ -47,11 +49,11 @@ ___
 
 ### The Natural Systems Institute re-design
 
-![alt tag](https://raw.githubusercontent.com/kimberlythegeek/wordpress/master/screenshots/naturalsystems.png)
-
 Child theme used in http://acodeabove.com/nsi Original site: http://thenaturalsystemsinstitute.org
 
 _Very simple site, really the only customization was the logo re-design._
+
+![alt tag](https://raw.githubusercontent.com/kimberlythegeek/wordpress/master/screenshots/naturalsystems.png)
 
 ___
 
@@ -59,7 +61,7 @@ ___
 
 ### Generic Hair Salon website
 
-![alt tag](https://raw.githubusercontent.com/kimberlythegeek/wordpress/master/screenshots/hairsalon.png)
+Child theme used in http://acodeabove.com/hairsalon 
 
 Uses the [simple HTML 5 contact form plugin](#my-super-simple-contact-form) and the [footer widget area plugin](#add-footer-widget-area).
 
@@ -67,15 +69,13 @@ The contact form is not coded for reusability yet. The admin 1email is hard-code
 
 I had to modify the `footer.php` file, because if there is a way to dynamically place widget areas (i.e. a standalone plugin that will add a widget area), I don't yet know how to do that.
 
-Child theme used in http://acodeabove.com/hairsalon 
+![alt tag](https://raw.githubusercontent.com/kimberlythegeek/wordpress/master/screenshots/hairsalon.png)
 
 ___
 
 ## Ravel Child Theme
 
 ### Durango Tattoo Company
-
-![alt tag](https://raw.githubusercontent.com/kimberlythegeek/wordpress/master/screenshots/durangotattoo.png)
 
 Child theme used in http://tattoodurango.com. My first Wordpress site.
 
@@ -84,13 +84,13 @@ _No custom plugins or Sass used._
 _The original theme had only one widget area/sidebar, in `footer.php`, so that it moves underneath the main content area on smaller screens._
 
 _I added another widget area to mirror this sidebar on the left on larger screens, and above the main content on smaller screens. I used a CPT plugin to create a Testimonials post type, and used a widget for CPTs that randomly loads any posts of that type._
+
+![alt tag](https://raw.githubusercontent.com/kimberlythegeek/wordpress/master/screenshots/durangotattoo.png)
 ___
 
 ## Twenty Eleven Child Theme
 
 ### Pole Call Fitness re-design
-
-![alt tag](https://raw.githubusercontent.com/kimberlythegeek/wordpress/master/screenshots/polefitness.png)
 
 Child theme used in http://acodeabove.com/polecallfitness Original site: http://polecallfitness.com
 
@@ -98,15 +98,17 @@ _The header image is low resolution because I didn't have access to the original
 
 _No custom plugins. I did add some simple features; when you click the address in the footer while using a mobile device, in iOS devices it will open Apple Maps, and in Android devices it will prompt for the user's choice in application. I also have two separate HTML 5 links for the phone number so that a user can either call or text._
 
+![alt tag](https://raw.githubusercontent.com/kimberlythegeek/wordpress/master/screenshots/polefitness.png)
+
 ___
 
 ## Twenty Sixteen Child Theme
 
-![alt tag](https://raw.githubusercontent.com/kimberlythegeek/wordpress/master/screenshots/skeptics.png)
-
 Child theme used in http://durangoskeptics.com Original site: http://durangofreethinkers.com
 
 _No custom plugins. I used a CPT plugin to create post type Quotes, and a CPT widget that will always show the most recent quote. I used two Meetup.com widgets to show details of the next event and a list of the next five events._
+
+![alt tag](https://raw.githubusercontent.com/kimberlythegeek/wordpress/master/screenshots/skeptics.png)
 
 
 ___
