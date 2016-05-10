@@ -1,0 +1,42 @@
+h1, h2, h3, h4, h5, h6 {
+    padding: 1rem;
+}
+
+#entry-25 .entry-title {
+    display:none;
+}
+#entry-25 .entry-content {
+    background: url('http://127.0.0.1/hairsalon/wp-content/uploads/2016/05/haircut-1007882-1024x827.jpg');
+    width: 1024px;
+    height: 550px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 5rem auto;
+}
+.prices {
+    float:right;
+}
+.services {
+    float:left;
+}
+.services-list{
+    min-width:100%;
+    margin-bottom: 1rem;
+}
+.inline {
+    display: inline;
+}
+.align-center {
+    text-align:center;
+}
+
+.entry-content a {
+    border-bottom:none;
+}
+#entry-25 .read-more {
+    display:none;
+}
+
+@import 'location';
+
+@import 'footer';

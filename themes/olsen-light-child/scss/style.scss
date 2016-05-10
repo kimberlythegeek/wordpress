@@ -1,0 +1,22 @@
+/*
+ Theme Name:   Olsen-Light Child
+ Theme URI:    
+ Author:       Kimberly Pennington
+ Author URI:   
+ Template:     olsen-light
+ Version:      0.1
+ Tags:         full-width, responsive-layout, accessibility-ready
+ Text Domain:  olsen-light-child
+*/
+@import url("../olsen-light/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+@import 'reset';
+
+@import 'typography';
+
+@import 'layout';
+
+@import 'mediaqueries';

@@ -11,3 +11,166 @@
 @import url("../olsen-light/style.css");
 /* =Theme customization starts here
 -------------------------------------------------------------- */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 2.2; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-family: 'Vollkorn', serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.widget-title, .entry-categories, .read-more {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.entry-meta, .widget, .site-logo p, .nav, .read-more, .fa {
+  font-size: 0.92rem;
+  line-height: 130%; }
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 1rem; }
+
+#entry-25 .entry-title {
+  display: none; }
+
+#entry-25 .entry-content {
+  background: url("http://127.0.0.1/hairsalon/wp-content/uploads/2016/05/haircut-1007882-1024x827.jpg");
+  width: 1024px;
+  height: 550px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 5rem auto; }
+
+.prices {
+  float: right; }
+
+.services {
+  float: left; }
+
+.services-list {
+  min-width: 100%;
+  margin-bottom: 1rem; }
+
+.inline {
+  display: inline; }
+
+.align-center {
+  text-align: center; }
+
+.entry-content a {
+  border-bottom: none; }
+
+#entry-25 .read-more {
+  display: none; }
+
+@media screen and (min-width: 200px) {
+  #location {
+    height: 18rem;
+    width: 100%;
+    margin: 1rem auto; } }
+@media screen and (min-width: 480px) {
+  #location {
+    height: 20rem; } }
+@media screen and (min-width: 640px) {
+  #location {
+    height: 24rem; } }
+@media screen and (min-width: 980px) {
+  #location {
+    height: 28rem; } }
+.widget {
+  border-bottom: none; }
+
+#footer-sidebar {
+  margin-top: 3rem;
+  width: 100%;
+  display: block;
+  height: 200px;
+  border-bottom: solid 1px #ebebeb; }
+
+.footer-widget {
+  width: 30%;
+  margin: auto 1.5%;
+  float: left; }
+
+.footer-widget .widget-title {
+  display: none; }
+
+#footer-left {
+  text-align: justify; }
+
+@media screen and (min-width: 200px) {
+  h1 {
+    font-size: 2.6rem; }
+
+  h2 {
+    font-size: 1.8rem; }
+
+  h3 {
+    font-size: 1.2rem; } }
+@media screen and (min-width: 480px) {
+  h1 {
+    font-size: 3rem; }
+
+  h2 {
+    font-size: 2rem; }
+
+  h3 {
+    font-size: 1.6rem; } }
+@media screen and (min-width: 640px) {
+  h1 {
+    font-size: 5rem; }
+
+  h2 {
+    font-size: 3.4rem; }
+
+  h3 {
+    font-size: 2.4rem; } }
+
+/*# sourceMappingURL=style.css.map */

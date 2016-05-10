@@ -34,6 +34,9 @@ ___
 ## A Code Above Theme
 #### A Wordpress theme built with Underscores
 
+![alt tag](https://raw.githubusercontent.com/kimberlythegeek/wordpress/master/screenshots/acodeabove.png)
+
+
 _I originally created a child theme for the Twenty Thirteen Wordpress theme, then recreated it using the Underscores starter theme. (http://underscores.me/)_
 
 _All of the graphics are custom on this site. I am not a designer, but I do enjoy doing it sometimes._
@@ -54,7 +57,13 @@ ___
 
 **Generic Hair Salon website**
 
-Child theme used in http://acodeabove.com/hairsalon (moving site, may not be active yet)
+Uses the [simple HTML 5 contact form plugin](#my-super-simple-contact-form) and the [footer widget area plugin](#add-footer-widget-area).
+
+The contact form is not coded for reusability yet. The admin 1email is hard-coded into the plugin. Created a shortcode `[super_simple_contact_form]` to add the contact form to posts and pages.
+
+I had to modify the `footer.php` file, because if there is a way to dynamically place widget areas (i.e. a standalone plugin that will add a widget area), I don't yet know how to do that.
+
+Child theme used in http://acodeabove.com/hairsalon 
 
 ___
 

@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700");
+
+body {
+    font-family: 'Vollkorn', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.widget-title, .entry-categories, .read-more {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.entry-meta, .widget, .site-logo p, .nav, .read-more, .fa {
+    font-size: 0.92rem;
+    line-height: 130%;
+}

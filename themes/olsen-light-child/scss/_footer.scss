@@ -1,0 +1,24 @@
+.widget {
+    border-bottom:none;
+}
+#footer-sidebar {
+    margin-top: 3rem;
+    width: 100%;
+    display:block;
+    height: 200px;
+    border-bottom: solid 1px #ebebeb;
+}
+.footer-widget { 
+    width:30%;
+    margin: auto 1.5%; 
+    float:left; }
+
+    .footer-widget .widget-title {
+        display:none;
+    }
+
+#footer-left {
+    text-align:justify;
+}
+#footer-center {}
+#footer-right {}
