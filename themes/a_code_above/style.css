@@ -359,7 +359,7 @@ html {
 
 /* line 11, sass/elements/_elements.scss */
 body {
-  background: #d9f5f7 url("/wp-content/themes/a_code_above/img/sun.png") no-repeat center top;
+  background: #d9f5f7 url("./img/sun.png") no-repeat center top;
   background-attachment: fixed; }
 
 /* line 16, sass/elements/_elements.scss */
@@ -418,7 +418,7 @@ table {
 .home-link {
   display: block;
   height: 25rem;
-  background: url("/wp-content/themes/a_code_above/img/aca-logo.png") no-repeat center top;
+  background: url("./img/aca-logo.png") no-repeat center top;
   background-size: contain; }
 
 /* line 1, sass/elements/_footer.scss */
@@ -601,13 +601,16 @@ textarea {
   text-align: center; }
 
 /* line 4, sass/layout/_frontpage.scss */
+.entry-title {
+  display: none; }
+
+/* line 7, sass/layout/_frontpage.scss */
 #wrapper p {
-  margin-top: 0.78em;
-  margin-bottom: 5em;
+  margin: 0 auto;
   padding: 0 5% 0;
   line-height: 2em; }
 
-/* line 10, sass/layout/_frontpage.scss */
+/* line 12, sass/layout/_frontpage.scss */
 .home-section-1,
 .home-section-2,
 .home-section-3 {
@@ -615,49 +618,49 @@ textarea {
   display: inline-block;
   width: 100%; }
 
-/* line 17, sass/layout/_frontpage.scss */
+/* line 19, sass/layout/_frontpage.scss */
 .home-section-1 p,
 .home-section-2 p,
 .home-section-3 p {
   width: 45%;
   margin: auto; }
 
-/* line 23, sass/layout/_frontpage.scss */
+/* line 25, sass/layout/_frontpage.scss */
 .section-1,
 .section-2,
 .section-3 {
   height: 200px; }
 
-/* line 28, sass/layout/_frontpage.scss */
+/* line 30, sass/layout/_frontpage.scss */
 .home-section-1 {
   background: #069fa8; }
 
-/* line 32, sass/layout/_frontpage.scss */
+/* line 34, sass/layout/_frontpage.scss */
 .home-section-2 {
   background: #09b592; }
 
-/* line 35, sass/layout/_frontpage.scss */
+/* line 37, sass/layout/_frontpage.scss */
 .home-section-2 #graphic {
   margin-top: 2.75em;
   max-height: 80px; }
 
-/* line 39, sass/layout/_frontpage.scss */
+/* line 41, sass/layout/_frontpage.scss */
 .home-section-3 {
   background: #099b5f; }
 
-/* line 42, sass/layout/_frontpage.scss */
+/* line 44, sass/layout/_frontpage.scss */
 .section-1 {
-  background: url("/wp-content/themes/a_code_above/img/graphic1.png") center center no-repeat;
+  background: url("./img/graphic1.png") center center no-repeat;
   background-size: contain; }
 
-/* line 46, sass/layout/_frontpage.scss */
+/* line 48, sass/layout/_frontpage.scss */
 .section-2 {
-  background: url("/wp-content/themes/a_code_above/img/search.png") center center no-repeat;
+  background: url("./img/search.png") center center no-repeat;
   background-size: contain; }
 
-/* line 50, sass/layout/_frontpage.scss */
+/* line 52, sass/layout/_frontpage.scss */
 .section-3 {
-  background: url("/wp-content/themes/a_code_above/img/code.png") center center no-repeat;
+  background: url("./img/code.png") center center no-repeat;
   background-size: contain; }
 
 /*--------------------------------------------------------------
@@ -1062,7 +1065,7 @@ object {
   /* line 6, sass/media-queries/_576.scss */
   .home-link {
     height: 18.75rem;
-    background: url("/wp-content/themes/a_code_above/img/logo-sun_smallscreens.png") no-repeat center top;
+    background: url("./img/logo-sun_smallscreens.png") no-repeat center top;
     background-size: contain; }
 
   /* FRONT PAGE */

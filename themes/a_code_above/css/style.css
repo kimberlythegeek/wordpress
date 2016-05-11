@@ -233,13 +233,23 @@ textarea {
   font-size: 1rem;
   line-height: 1.5; }
 
+.main-navigation {
+  font-size: 140%; }
+
+.home-section-1 p,
+.home-section-2 p,
+.home-section-3 p {
+  font-size: 160%;
+  font-weight: bold; }
+
 h1, h2, h3, h4, h5, h6 {
   clear: both;
   font-family: "source-sans-pro";
   font-weight: 200; }
 
 h1 {
-  font-size: 3em; }
+  font-size: 300%;
+  font-weight: bold; }
 
 p {
   margin-bottom: 1.5em; }
@@ -293,7 +303,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #d9f5f7 url("/dev/wp-content/themes/a_code_above/img/sun.png") no-repeat center top;
+  background: #d9f5f7 url("/wp-content/themes/a_code_above/img/sun.png") no-repeat center top;
   background-attachment: fixed; }
 
 blockquote, q {
@@ -340,7 +350,7 @@ table {
 .home-link {
   display: block;
   height: 25rem;
-  background: url("/dev/wp-content/themes/a_code_above/img/aca-logo.png") no-repeat center top;
+  background: url("'<?php echo get_stylesheet_directory_uri(); ?>'/img/aca-logo.png") no-repeat center top;
   background-size: contain; }
 
 .site-footer {
@@ -513,7 +523,14 @@ textarea {
 .home-section-2,
 .home-section-3 {
   padding: 2em;
-  display: inline-block; }
+  display: inline-block;
+  width: 100%; }
+
+.home-section-1 p,
+.home-section-2 p,
+.home-section-3 p {
+  width: 45%;
+  margin: auto; }
 
 .section-1,
 .section-2,
@@ -534,15 +551,15 @@ textarea {
   background: #099b5f; }
 
 .section-1 {
-  background: url("/dev/wp-content/themes/a_code_above/img/graphic1.png") center center no-repeat;
+  background: url("/wp-content/themes/a_code_above/img/graphic1.png") center center no-repeat;
   background-size: contain; }
 
 .section-2 {
-  background: url("/dev/wp-content/themes/a_code_above/img/search.png") center center no-repeat;
+  background: url("/wp-content/themes/a_code_above/img/search.png") center center no-repeat;
   background-size: contain; }
 
 .section-3 {
-  background: url("/dev/wp-content/themes/a_code_above/img/code.png") center center no-repeat;
+  background: url("/wp-content/themes/a_code_above/img/code.png") center center no-repeat;
   background-size: contain; }
 
 /*--------------------------------------------------------------
@@ -620,6 +637,9 @@ a {
   font-size: 1.7em;
   font-style: italic;
   padding: 0 2em; }
+
+.main-navigation {
+  height: 100%; }
 
 .main-navigation ul {
   display: inline-block; }
@@ -858,6 +878,11 @@ object {
 /*--------------------------------------------------------------
 # Media Queries
 --------------------------------------------------------------*/
+@media only screen and (max-width: 100rem) {
+  .home-section-1 p,
+  .home-section-2 p,
+  .home-section-3 p {
+    width: 60%; } }
 @media only screen and (max-width: 45rem) {
   /* FULL SITE */
   body {
@@ -872,13 +897,18 @@ object {
 
   .home-link {
     height: 18.75rem;
-    background: url("/dev/wp-content/themes/a_code_above/img/logo-sun_smallscreens.png") no-repeat center top;
+    background: url("/wp-content/themes/a_code_above/img/logo-sun_smallscreens.png") no-repeat center top;
     background-size: contain; }
 
   /* FRONT PAGE */
   .section-1,
   .section-3 {
-    max-height: 7.5rem; } }
+    max-height: 7.5rem; }
+
+  .home-section-1 p,
+  .home-section-2 p,
+  .home-section-3 p {
+    width: 100%; } }
 @media only screen and (max-width: 27rem) {
   .header-image {
     height: 12.5rem; } }
