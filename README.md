@@ -79,7 +79,7 @@ Child theme used in http://acodeabove.com/hairsalon
 
 Uses the [simple HTML 5 contact form plugin](#my-super-simple-contact-form) and the [footer widget area plugin](#add-footer-widget-area).
 
-The contact form is not coded for reusability yet. The admin 1email is hard-coded into the plugin. Created a shortcode `[super_simple_contact_form]` to add the contact form to posts and pages.
+The contact form is not coded for reusability yet. The admin email is hard-coded into the plugin. Created a shortcode `[super_simple_contact_form]` to add the contact form to posts and pages.
 
 I had to modify the `footer.php` file, because if there is a way to dynamically place widget areas (i.e. a standalone plugin that will add a widget area), I don't yet know how to do that.
 
