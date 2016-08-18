@@ -7,12 +7,12 @@
 #wrapper p {
   margin:0 auto;
   padding: 0 5% 0;
-  line-height: 2em;
+  line-height: 2rem;
 }
 .home-section-1,
 .home-section-2,
 .home-section-3 {
-  padding: 2em;
+  padding: 2rem;
   display: inline-block;
   width: 100%;
 }
@@ -35,7 +35,7 @@
   background: $color__section-2;
 }
 .home-section-2 #graphic {
-  margin-top: 2.75em;
+  margin-top: 2.75rem;
   max-height: 80px;
 }
 .home-section-3 {

@@ -54,7 +54,7 @@ input[type="tel"] {
   border:1px solid #dedede;
   padding:10px;
   margin-top:3px;
-  font-size:0.9em;
+  font-size:0.9rem;
   color:#3a3a3a;
   -moz-border-radius:5px;
   -webkit-border-radius:5px;
@@ -65,8 +65,8 @@ textarea {
 }
 #submit {
   width:127px;
-  height:38px;    
-  font-size: 1.1em;
+  height:38px;
+  font-size: 1.1rem;
   font-style: italic;
   border:none;
   margin-top:20px;
@@ -81,6 +81,6 @@ textarea {
 	margin: auto;
 }
 #message-sent {
-	font-size: 1.8em;
+	font-size: 1.8rem;
   font-style: italic;
 }

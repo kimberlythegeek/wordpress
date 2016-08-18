@@ -6,4 +6,10 @@
   h1 {
     font-size: 2.6rem;
   }
+  .main-navigation ul {
+    display: inline-flex;
+  }
+  .nav-menu li {
+    padding: 0 1rem;
+  }
 }

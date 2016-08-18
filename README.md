@@ -75,7 +75,7 @@ ___
 
 ### Generic Hair Salon website
 
-Child theme used in http://acodeabove.com/hairsalon 
+Child theme used in http://acodeabove.com/hairsalon
 
 Uses the [simple HTML 5 contact form plugin](#my-super-simple-contact-form) and the [footer widget area plugin](#add-footer-widget-area).
 
@@ -106,7 +106,7 @@ ___
 
 ### Pole Call Fitness site re-design
 
-Child theme used in http://acodeabove.com/polecallfitness Original site: http://polecallfitness.com
+Child theme used in redesign. Original site: http://polecallfitness.com
 
 _The header image is low resolution because I didn't have access to the original file. I did this site mostly for the experience (as is the case with most of them)._
 
